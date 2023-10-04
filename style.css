@@ -1,0 +1,76 @@
+.container{
+    width: 90%;
+    margin:0px auto;
+    height: 1200px;
+    background-color: aliceblue;
+}
+.banner{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+.subcontainer-1{
+    width:100%;
+    display: flex;
+}
+.subcontainer-1 .left, 
+.subcontainer-1 .middle, 
+.subcontainer-1 .right{
+    float:left;
+}
+.subcontainer-1 .left{
+    width:20%;
+    background-color: aqua;
+}
+.subcontainer-1 .middle{
+    width:60%;
+    background-color: blueviolet;
+}
+.subcontainer-1 .right{
+    width:20%;
+    background-color: brown;
+}
+.subcontainer-1 .right .upper{
+    width: 100%;
+    height: 50%;
+    background-color: beige;
+}
+.subcontainer-1 .right .lower{
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+}
+.subcontainer-2{
+    width:100%;
+    display: flex;
+}
+.subcontainer-2 .sidebar{
+    width: 20%;
+    background-color: beige;
+    float: left;
+}
+.subcontainer-2 .content{
+    width: 80%;
+    background-color: darkseagreen;
+    float: left;
+}
+.subcontainer-2 .sidebar .upper{
+    width:100%;
+    height: 50%;
+    background-color: blanchedalmond;
+}
+.subcontainer-2 .sidebar .lower{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
